@@ -6,7 +6,9 @@
     display: flex;
 }
 /* /global codes */
-
+.main{
+    color: #303342;
+}
 header img{
   display: block;
   margin-left: auto;
@@ -22,6 +24,8 @@ nav {
     text-align: center;
     word-spacing: 50px;
     justify-content:space-between;
+    margin-left: 12.77777777777778%;
+    margin-right: 12.77777777777778%;
  
 }
 nav section{
@@ -37,14 +41,9 @@ nav ul li {
     word-spacing: 50px;
 
 
+
 }
- nav ul li:nth-child(1) {
-     color :#303342;
 
-     
-
-
- }
 .material-icons{
      font-size: 15px;
      margin-left: 0.5%;
@@ -57,13 +56,12 @@ nav ul li {
      font-size: 16px;
      color: #606060;
  }
-section video {
-    width: 80%;
-    height: 60%;
-    background-color: blue;
+section iframe{
+   
+   
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 4.444444444444444%;
 
 }
 
@@ -77,12 +75,16 @@ section video {
     line-height: 22.8px;
     text-align: center;
     color: #606060;
+    margin-bottom: 3.535%;
+    margin-top: 4.292%;
     
 }
 footer{
     justify-content: space-between;
     font-size: 17px;
     color: #606060;
+    margin-left: 12.77777777777778%;
+    margin-right: 12.77777777777778%;
 
 }
 .fb,.in{
