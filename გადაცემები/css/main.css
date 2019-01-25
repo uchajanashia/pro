@@ -106,3 +106,21 @@ footer{
     line-height: 31px;
     margin-bottom: 26.7%;
 }
+ .container{
+     font-size: 14px;
+     width: 260px;
+     
+        
+       
+ }
+.div1{
+    -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 800px;
+        justify-content: space-between;
+       
+}
+.sec1{
+    width: 100%;
+
+}
