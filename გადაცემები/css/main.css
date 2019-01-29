@@ -24,7 +24,10 @@
 }
 /* /global codes */
 
-
+footer a{
+    text-decoration-line: none;
+    color: #606060;
+}
 .main{
     color: #303342;
 }
