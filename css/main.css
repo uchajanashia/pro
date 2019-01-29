@@ -75,8 +75,8 @@ section iframe{
     line-height: 22.8px;
     text-align: center;
     color: #606060;
-    margin-bottom: 3.535%;
-    margin-top: 4.292%;
+    margin-bottom: 50px;
+    margin-top: 30px;
     
 }
 footer{
@@ -85,6 +85,7 @@ footer{
     color: #606060;
     margin-left: 12.77777777777778%;
     margin-right: 12.77777777777778%;
+    margin-bottom: 50px;
 
 }
 .fb,.in{

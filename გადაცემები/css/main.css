@@ -23,9 +23,7 @@
 
 }
 /* /global codes */
-body{
-    max-width: 1488px;
-}
+
 
 .main{
     color: #303342;
@@ -82,8 +80,8 @@ nav ul li {
     line-height: 22.8px;
     text-align: center;
     color: #606060;
-    margin-bottom: 3.535%;
-    margin-top: 4.292%;
+    margin-bottom: 70px;
+    margin-top: 60px;
     
 }
 footer{
@@ -92,6 +90,7 @@ footer{
     color: #606060;
     margin-left: 12.77777777777778%;
     margin-right: 12.77777777777778%;
+    margin-bottom: 50px;
 
 }
 .fb,.in{
@@ -101,14 +100,14 @@ footer{
     font-size:20px;
 }
 .nav2{
-    margin-top: 4.5%;
+    
     margin-left: 18.5%;
     line-height: 31px;
-    margin-bottom: 26.7%;
+   
 }
  .container{
      font-size: 14px;
-     width: 260px;
+     width: 210px;
      
         
        
@@ -118,9 +117,17 @@ footer{
         flex-wrap: wrap;
         width: 800px;
         justify-content: space-between;
+            align-content: start;
+            margin-left: 20px;
+            
        
 }
 .sec1{
-    width: 100%;
+    margin-top: 40px;
 
+}
+.div1 p{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    width: 253px;
 }
