@@ -24,6 +24,44 @@
 }
 /* /global codes */
 
+/* 
+/* fonts */
+@font-face{
+    font-family: font1;
+    src: url(../fonts/bpg_nino_mkhedruli_bold.ttf);
+ }
+ @font-face{
+     font-family: font2;
+     src: url(../fonts/bpg_nino_mtavruli_bold.otf)
+ }
+ @font-face{
+     font-family: font3;
+     src: url(../fonts/bpg_nino_mtavruli_normal.ttf)
+ }
+ 
+ html{
+    font-family: font3;
+
+}
+ .main{
+     font-family: font2;
+ }
+ nav{
+     font-family: font1;
+ }
+ footer{
+     font-family: font2;
+ }
+
+ 
+ /* end fonts */ 
+
+
+
+
+
+
+
 footer a{
     text-decoration-line: none;
     color: #606060;
@@ -31,17 +69,15 @@ footer a{
 .main{
     color: #303342;
 }
-
 header img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-  height: 2%;
-  margin-top: 4%;
-  margin-bottom: 4%;
-
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
 
 
 .nav1 {
@@ -94,6 +130,7 @@ footer{
     margin-left: 12.77777777777778%;
     margin-right: 12.77777777777778%;
     margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 .fb,.in{
@@ -133,4 +170,53 @@ footer{
     margin-top: 10px;
     margin-bottom: 60px;
     width: 253px;
+}
+
+
+
+
+/*  media tags */
+ 
+
+@media screen and (min-width:300px) {
+    section iframe{
+        width: 200px;
+        height: 150px;;
+    }
+    .search{
+        margin-left:6%;
+
+
+    }
+    .tran{
+        margin-right: 6%;
+    }
+ 
+ 
+}
+ 
+ 
+ 
+/*  small == tablet (bootstrap sm) ---  768px - 991px    */
+ 
+@media screen and (min-width:768px) {
+ 
+ 
+}
+ 
+ 
+ 
+/*  medium == notebook small (bootstrap md) ---  992px - 1999px    */
+ 
+@media screen and (min-width:992px) {
+ 
+ 
+}
+ 
+ 
+ 
+/*  large == notebook large (bootstrap lg) ---  1200px +   */
+ 
+@media screen and (min-width:1200px) {
+   
 }
