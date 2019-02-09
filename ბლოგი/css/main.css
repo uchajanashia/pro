@@ -5,6 +5,9 @@
 .flex{
     display: flex;
 }
+.block{
+    display: block;
+}
 /* /global codes */
 
 
@@ -26,7 +29,7 @@
 .main{
     font-family: font2;
 }
-nav{
+nav,nav p{
     font-family: font1;
 }
 footer{
@@ -147,4 +150,94 @@ article p{
 .div2{
     margin-top: 60px;
     margin-bottom: 40px;
+}/*  media tags */
+ 
+
+@media screen and (min-width:300px) {
+    
+    .div2{
+        display: block;
+    }
+    .img2{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    
+    .art{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+       
+    footer{
+        margin-bottom: 10px;
+   
+    }
+   
+    .glavni,.div2{
+        width: 320px;
+    }
+    
 }
+   /*  small == tablet (bootstrap sm) ---  768px - 991px    */
+    
+   @media screen and (min-width:768px) {
+     .glavni{
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-content: space-around;
+     }
+    .img2{
+        display: block;
+       
+        
+    }
+    .div2{
+        margin-right: 20px;
+    }
+    .art{
+        width: 300px;
+        
+    }
+   }
+    
+    
+    
+   /*  medium == notebook small (bootstrap md) ---  992px - 1999px    */
+    
+   @media screen and (min-width:992px) {
+    
+    .glavni{
+        width: 100%;
+   }
+    
+    
+    
+   /*  large == notebook large (bootstrap lg) ---  1200px +   */
+    
+   @media screen and (min-width:1200px) {
+     .div2,.img2{
+         display: flex;
+     }
+     .div2{
+         width: 1100px;
+         height: 207px;
+         justify-content: center;
+         align-content: center;
+     }
+     .art{
+         width: 800px;
+         margin-left: 40px;
+         padding-top: 10px;
+     }
+     .img2{
+         width: 251px;
+         height: 207px;
+     }
+   }

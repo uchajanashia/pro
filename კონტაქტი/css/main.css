@@ -143,3 +143,74 @@ footer a{
     margin-top: 100px;
     margin-right: auto;
 }
+@media screen and (min-width:300px) {
+   .contact{
+       margin-top: 20px;
+       margin-right: auto;
+       margin-left: auto;
+       width: 260px;
+   }
+ .map iframe{
+     width: 250px;
+     height: 250px;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 70px;
+     
+ }
+ .map{
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+.sec3{
+    display: block;
+}
+   }
+    
+    
+    
+   /*  small == tablet (bootstrap sm) ---  768px - 991px    */
+    
+   @media screen and (min-width:768px) {
+    .map iframe{
+        width: 450px;
+        height: 350px;
+    }
+    
+   }
+    
+    
+    
+   /*  medium == notebook small (bootstrap md) ---  992px - 1999px    */
+    
+   @media screen and (min-width:992px) {
+       .sec3{
+           display: flex;
+           margin-top: 100px;
+           margin-bottom: 100px;
+       }
+    
+       
+   }
+    
+    
+    
+   /*  large == notebook large (bootstrap lg) ---  1200px +   */
+    
+   @media screen and (min-width:1200px) {
+       .map iframe{
+           width: 550px;
+           height: 450px;
+           margin-right: auto;
+           margin-left: 20px;
+       }
+       .contact{
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-right: 20px;
+          margin-left: auto;
+          
+       }
+     
+   }
